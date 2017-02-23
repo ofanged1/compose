@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM armv7/armhf-debian
 
 RUN set -ex; \
     apt-get update -qq; \
